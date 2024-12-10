@@ -1,8 +1,8 @@
 Craby's First Personal Website
 <br>
 This is my final project after the CSS course. It is my first ever personal website(portofolio). I tried to demonstrate everything 
-<br>I learned from the course and also did some research on websites (mostly w3schools) to enhance my knowledge! Key things that 
-<br>I learned apart from the codedex course and would like to mention is adding some "responsiveness" to my website.
+I learned from the course and also did some research on websites (mostly w3schools) to enhance my knowledge! Key things that 
+I learned apart from the codedex course and would like to mention is adding some "responsiveness" to my website.
 
 <ul>
 <li>Using the :hover to an element so it changes when you hover it with your mouse</li>
