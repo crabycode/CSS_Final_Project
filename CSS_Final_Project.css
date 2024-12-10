@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar img {
+  width: 3rem;
+  border-radius: 50%;
+}
+.navbar nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.navbar nav a:hover {
+  color: lightgrey;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 44rem;
+  text-align: center;
+  background: whitesmoke;
+}
+.landing h1 {
+  font-size: 3rem;
+  color: darkslateblue;
+}
+.landing .quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 1rem;
+  color: darkgrey;
+}
+.landing img{
+  height:400px;
+}
+
+.about {
+  padding: 6rem 2rem;
+  background: #e9ecef;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.about p {
+  font-size: 1.1rem;
+  max-width: 37.5rem;
+  margin: 0 auto 2rem;
+}
+.profile-picture {
+  width: 21rem;
+  height: 28rem;
+  border-radius: 15%;
+}
+
+.projects {
+  padding: 6rem 2rem;
+  background: rgb(255, 255, 255);
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.project-box {
+  border: 2px solid #ccc;
+  border-radius: 5%;
+  padding: 2rem;
+  max-width: 360px;
+  background-color: #f9f9f9;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.project img {
+  width: 18.7rem;
+  margin-bottom: 1rem;
+}
+.project p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+
+.contact {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #e9ecef;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.contact img {
+  height: 18.7rem;
+  border-radius: 90%;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
